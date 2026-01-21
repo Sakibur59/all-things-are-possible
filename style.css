@@ -52,7 +52,31 @@
     justify-content: flex-end;
     padding-top: 30px;
 }
+.host{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
 
+.tik-container{
+    max-width: 420px;
+}
+.tik-container h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.tik-container p{
+    margin-bottom: 10px;
+    color: #444343;
+    font-weight: 200;
+}
+.tik-container p i{
+    color: #16D887;
+    margin-right: 10px;
+}
 @media screen and (max-width:576px) {
     .header-container{
         background-image: none;
